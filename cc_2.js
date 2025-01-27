@@ -19,3 +19,17 @@ let average = (scores[0] + scores[1] + scores[2] + scores[3] + scores[4])/scores
 // Posts the Updated and Average scores to the console.
 console.log("Updated Scores:", scores);
 console.log("Average Scores:", average);
+
+// Task 3: Employee Records
+// Creates the employee ID with all employee information displayed.
+let employee = {
+    name: "John Smith",
+    age: 25,
+    department: "Customer Service",
+    isActive: true
+};
+// Modified the department to display "produce" in the console with the specific position name included.
+employee.department = "Produce";
+employee.position = "Produce Stocker";
+// Displays the information in the console.
+console.log(employee);

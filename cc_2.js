@@ -33,3 +33,15 @@ employee.department = "Produce";
 employee.position = "Produce Stocker";
 // Displays the information in the console.
 console.log(employee);
+
+// Task 4: Customer Data
+// Created an array of customers.
+let customers = [
+    {name: "Sydney Sweeney", email: "ssweeney@gmail.com", purchaseAmount: 500},
+    {name: "Jayden Daniels", email: "jdaniels@gmail.com", purchaseAmount: 250},
+    {name: "Ken Carson", email: "kcarson@gmail.com", purchaseAmount: 450}
+];
+// Added a new customer to the array.
+customers.push({name: "Juice WRLD", email: "wrld@gmail.com", purchaseAmount: 1000});
+//Displays the updated array.
+console.log("Guest List:", customers);

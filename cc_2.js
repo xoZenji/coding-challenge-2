@@ -45,3 +45,18 @@ let customers = [
 customers.push({name: "Juice WRLD", email: "wrld@gmail.com", purchaseAmount: 1000});
 //Displays the updated array.
 console.log("Guest List:", customers);
+
+// Task 5: Order Processing System
+// Calculated the taxes on the order.
+let order = {
+    orderID: 100,
+    customerName: "Juice WRLD",
+    amount: 999,
+    calculateTax: function() {
+        const taxRate = 0.10;
+        return this.amount * taxRate;
+    }
+};
+// Displays the tax information from the order.
+console.log(order);
+console.log("Order Tax:", order.calculateTax());
